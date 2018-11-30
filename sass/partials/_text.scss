@@ -1,0 +1,55 @@
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-normal {
+    font-weight: normal
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-blue {
+    color: $blue;
+}
+
+.text-orange {
+    color: $orange;
+}
+
+.text-white {
+    color: $white;
+}
+
+.h1 {
+    font-size: 2rem;
+}
+
+.h2 {
+    font-size: 1.8rem;
+}
+
+.h3 {
+    font-size: 1.6rem;
+}
+
+.h4 {
+    font-size: 1.4rem;
+}
+
+.h5 {
+    font-size: 1.2rem;
+}
+
+.h6 {
+    font-size: 1rem;
+}

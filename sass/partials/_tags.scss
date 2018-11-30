@@ -1,0 +1,39 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+section {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+address {
+    font-style: unset;
+}
+
+p {
+    margin-bottom: .3rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}

@@ -1,0 +1,32 @@
+.row {
+    padding: 1rem .75rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.content-center {
+    align-content: center
+}
+
+.no-p-top {
+    padding-top: 0 !important;
+}
+
+.no-p-bottom {
+    padding-bottom: 0 !important;
+}
+
+.col-1\/5 {
+    width: 50%;
+    padding: 1rem 2rem;
+}

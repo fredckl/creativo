@@ -1,0 +1,19 @@
+@import "reset";
+@import 'partials/columns';
+
+body {
+    box-sizing: border-box;
+    font-family: 'Text Me One', sans-serif;
+    background-color: #fff;
+    background-image: url('/img/bg.png');
+    background-attachment: fixed;
+    background-size: 10%;
+}
+
+iframe {
+    background-color: #fff;
+}
+
+a {
+    color: #009EFF;
+}
