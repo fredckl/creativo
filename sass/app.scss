@@ -17,3 +17,13 @@ iframe {
 a {
     color: #009EFF;
 }
+
+@media screen and (max-width: 39.9375em) {
+    .main {
+        flex-direction: column;
+    }
+
+    .col-1\/5 {
+        width: 80%;
+    }
+}
