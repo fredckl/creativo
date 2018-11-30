@@ -10,6 +10,25 @@ body {
     background-size: 10%;
 }
 
+header {
+    margin-bottom: 2rem;
+
+    h1 {
+        margin-bottom: 0rem;
+        padding-bottom: 0;
+
+    }
+
+    p {
+        margin-top: 0;
+        padding-left: 1.2rem;
+    }
+
+    small {
+        font-size: .9rem;
+    }
+}
+
 iframe {
     background-color: #fff;
 }
