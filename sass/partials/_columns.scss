@@ -4,6 +4,7 @@
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-column {
@@ -28,5 +29,11 @@
 
 .col-1\/5 {
     width: 50%;
-    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+}
+
+.item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }

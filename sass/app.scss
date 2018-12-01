@@ -21,7 +21,7 @@ header {
 
     p {
         margin-top: 0;
-        padding-left: 1.2rem;
+        margin-left: 1.2rem;
     }
 
     small {
@@ -31,10 +31,101 @@ header {
 
 iframe {
     background-color: #fff;
+    margin: 1rem auto;
 }
 
 a {
     color: #009EFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/**
+ * Fonts
+ */
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.montserrat-a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: normal;
+}
+
+/******/
+
+.square {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 6px;
+    border: solid 1px #bfc9d4;
+}
+
+.rounded {
+    border-radius: 3px;
+}
+
+.bg-blue {
+    background-color: #043757
+}
+
+.bg-orange {
+    background-color: #FF6600
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.btn:hover {
+    box-shadow: 0 0 2px #aaa;
+}
+
+.strong {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: none;
+}
+
+.separator {
+    width: 300px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #a2a2a2;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/******/
+
+.integrator-board {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-top: 1px solid #a2a2a2;
+    // border-bottom: 1px solid #a2a2a2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    dl {
+        dt {}
+
+        dd {
+            padding-top: .3rem;
+            padding-bottom: .5rem;
+        }
+    }
 }
 
 .smile {
@@ -44,13 +135,39 @@ a {
     color: #043757;
 }
 
-@media screen and (max-width: 39.9375em) {
-    .main {
-        flex-direction: column;
+.maquette {
+    margin-top: 2.2rem;
+
+    div {
+        // background-color: white;
+        text-align: center;
     }
 
+    img {
+        width: 30%;
+        height: 100%;
+    }
+}
+
+.main-footer {
+    padding-top: 1rem;
+    border-top: 1px solid #a2a2a2;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 39.9375em) {
+    .main {}
+
     .col-1\/5 {
-        width: 80%;
-        padding: .5rem;
+        // width: 80%;
+        width: 100%;
+        margin: .5rem;
     }
 }
