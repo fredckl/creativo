@@ -219,10 +219,23 @@ $heightTriangle: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
 
+        transition: all .3s;
+
         i {
             margin: auto;
+            transition: all .5s
         }
     }
+
+    a:hover i {
+        color: $blue;
+    }
+
+    a:hover {
+        border-color: $orange;
+    }
+
+
 }
 
 footer {
