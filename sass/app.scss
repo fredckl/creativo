@@ -1,4 +1,5 @@
 @import "reset";
+@import "partials/devices";
 @import 'partials/columns';
 
 body {
@@ -29,10 +30,7 @@ header {
     }
 }
 
-iframe {
-    background-color: #fff;
-    margin: 1rem auto;
-}
+
 
 a {
     color: #009EFF;
@@ -108,7 +106,15 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+.margin-lr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /******/
+#creativo-frame {
+    background-color: #fff;
+}
 
 .integrator-board {
     margin-top: 3rem;
@@ -170,4 +176,8 @@ a:hover {
         width: 100%;
         margin: .5rem;
     }
+
+    // #creativo-frame {
+    //     width: 340px;
+    // }
 }
